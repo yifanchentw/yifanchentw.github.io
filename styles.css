@@ -5,20 +5,29 @@
     body {
         font-family: Arial;
         color: #333;
+        display: flex;
+        flex-flow: row wrap;
+        flex-direction: column;
         margin: 10px;
         padding: 10px;
     }
     
+    .header,
+    .body,
+    .nav,
+    .div,
+    .footer {
+        flex: 1 100%;
+    }
+    
     h1 {
-        font-size: 36px;
+        font-size: 28px;
         text-align: center;
         margin: 10px;
         padding: 30px;
     }
     
     .row {
-        display: flex;
-        flex-direction: column;
         margin: 10px;
         padding: 10px;
     }
@@ -30,6 +39,10 @@
     
     #issue {
         background-color: lightgray;
+    }
+    
+    nav {
+        order: -1;
     }
     
     nav ul {
@@ -62,15 +75,10 @@
         .row {
             display: flex;
             flex-direction: row;
+            flex: 1;
         }
         h1 {
             font-size: 48px;
-            text-align: center;
-        }
-        nav ul {
-            background-color: #000000;
-            padding: 20px;
-            margin: 20px;
         }
         nav li {
             display: inline;
@@ -78,19 +86,12 @@
         }
         nav li a {
             display: inline;
-            color: white;
-            padding: 10px;
-            margin: 5px;
-            text-decoration: none;
-            background-color: purple;
-            border-radius: 5px;
         }
     }
     
     @media (min-width: 1024px) {
         h1 {
             font-size: 60px;
-            text-align: center;
         }
         #issue {
             background-color: white;
