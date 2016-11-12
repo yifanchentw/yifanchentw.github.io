@@ -280,11 +280,6 @@
  /*media queries*/
  
  @media only screen and (min-width: 768px) {
-      .row {
-           display: flex;
-           flex-direction: row;
-           flex: 1;
-       }
      a.to_nav {
          display: none;
      }
