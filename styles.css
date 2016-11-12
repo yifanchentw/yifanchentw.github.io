@@ -1,95 +1,96 @@
-  .header,
-  .body,
-  .nav,
-  .div,
-  .footer {
-      flex: 1 100%;
-  }
-  
-  body {
-      font-family: Arial;
-      color: #333;
-      display: flex;
-      flex-flow: row wrap;
-      flex-direction: column;
-      margin: 10px;
-      padding: 10px;
-  }
-  
-  h1 {
-      font-size: 28px;
-      text-align: center;
-      margin: 10px;
-      padding: 30px;
-  }
-  
-  .row {
-      margin: 10px;
-      padding: 10px;
-  }
-  
-  section {
-      margin: 10px;
-      padding: 10px;
-  }
-  
-  #issue {
-      background-color: lightgray;
-  }
-  
-  nav {
-      order: -1;
-  }
-  
-  nav ul {
-      background-color: #000000;
-      padding: 20px;
-      margin: 20px;
-  }
-  
-  nav li {
-      list-style-type: none;
-  }
-  
-  nav li a {
-      display: block;
-      color: white;
-      padding: 10px;
-      margin: 5px;
-      text-decoration: none;
-      background-color: purple;
-      border-radius: 5px;
-  }
-  
-  footer {
-      padding: 20px;
-      margin: 10px;
-      text-align: center;
-  }
-  
-  @media (min-width: 768px) {
-      .row {
-          display: flex;
-          flex-direction: row;
-          flex: 1;
-      }
-      h1 {
-          font-size: 48px;
-      }
-      nav li {
-          display: inline;
-          list-style-type: none;
-      }
-      nav li a {
-          display: inline;
-      }
-  }
-  
-  @media (min-width: 1024px) {
-      h1 {
-          font-size: 60px;
-      }
-      #issue {
-          background-color: white;
-      }
-  }
+   * {
+       box-sizing: border-box;
+   }
+   
+   header,
+   nav,
+   div,
+   section,
+   footer {
+       display: block;
+   }
+   
+   body {
+       font-family: Arial;
+       color: #333;
+       margin: 10px;
+       padding: 10px;
+   }
+   
+   h1 {
+       font-size: 28px;
+       text-align: center;
+       margin: 10px;
+       padding: 30px;
+   }
+   
+   .row {
+       margin: 10px;
+       padding: 10px;
+   }
+   
+   section {
+       margin: 10px;
+       padding: 10px;
+   }
+   
+   #issue {
+       background-color: lightgray;
+   }
+   
+   nav {
+       order: -1;
+   }
+   
+   nav ul {
+       background-color: #000000;
+       padding: 20px;
+       margin: 20px;
+   }
+   
+   nav li {
+       list-style-type: none;
+   }
+   
+   nav li a {
+       display: block;
+       color: white;
+       padding: 10px;
+       margin: 5px;
+       text-decoration: none;
+       background-color: purple;
+       border-radius: 5px;
+   }
+   
+   footer {
+       padding: 20px;
+       margin: 10px;
+       text-align: center;
+   }
+   
+   @media (min-width: 768px) {
+       .row {
+           display: flex;
+           flex-direction: row;
+           flex: 1;
+       }
+       h1 {
+           font-size: 48px;
+       }
+       nav li {
+           display: inline;
+           list-style-type: none;
+       }
+       nav li a {
+           display: inline;
+       }
+   }
+   
+   @media (min-width: 1024px) {
+       h1 {
+           font-size: 60px;
+       }
+       #issue {
+           background-color: white;
+       }
+   }
