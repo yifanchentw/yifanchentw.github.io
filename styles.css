@@ -2,6 +2,15 @@
         box-sizing: border-box;
     }
     
+    header,
+    nav,
+    nav li a,
+    div,
+    section,
+    footer {
+        display: block;
+    }
+    
     body {
         font-family: Arial;
         color: #333;
@@ -41,7 +50,6 @@
     }
     
     nav li a {
-        display: block;
         color: white;
         padding: 10px;
         margin: 5px;
@@ -65,7 +73,6 @@
         }
         nav li {
             display: inline;
-            list-style-type: none;
         }
         nav li a {
             display: inline;
