@@ -2,17 +2,6 @@
         box-sizing: border-box;
     }
     
-    header,
-    nav,
-    nav li a,
-    div,
-    .row,
-    #issue,
-    section,
-    footer {
-        display: block;
-    }
-    
     body {
         font-family: Arial;
         color: #333;
@@ -28,6 +17,7 @@
     }
     
     .row {
+        display: block;
         margin: 10px;
         padding: 10px;
     }
@@ -52,6 +42,7 @@
     }
     
     nav li a {
+        display: block;
         color: white;
         padding: 10px;
         margin: 5px;
