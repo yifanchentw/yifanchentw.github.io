@@ -6,6 +6,8 @@
     nav,
     nav li a,
     div,
+    .row,
+    #issue,
     section,
     footer {
         display: block;
