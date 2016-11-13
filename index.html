@@ -1,44 +1,54 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>The Responsive Site</title>
+    <meta charset="utf-8">
+    <title>Mobile First Responsive Navigation</title>
+    <meta name="description" content="CSS only mobile first navigation">
+    <meta name="author" content="Yi-Fan Chen">
+    <!--Mobile specific meta goodness :)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
-    <header>
-        <h1>The Responsive Site</h1>
-        <nav>
+<body id="home">
+    <div class="wrapper">
+        <header>
+            <h1 class="logo"><a href="">Nav</a></h1>
+            <a class="to_nav" href="#primary_nav">Menu</a>
+        </header>
+        <div class="flex-container">
+            <section>
+                <h2>Blue. No, yel&hellip;</h2>
+                <p>Shut up! Will you shut up?! But you are dressed as one&hellip; Camelot! You don't vote for kings.</p>
+            </section>
+            <section>
+                <h2>We want a shrubbery!!</h2>
+                <p>Look, my liege! Shut up! But you are dressed as one&hellip;</p>
+                <ul>
+                    <li>The nose?</li>
+                    <li>Shh! Knights, I bid you welcome to your new home. Let us ride to Camelot!</li>
+                    <li>Look, my liege!</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Help, help, I'm being repressed!</h2>
+                <p>Why? Listen. Strange women lying in ponds distributing swords is no basis for a system of government. Supreme executive power derives from a mandate from the masses, not from some farcical aquatic ceremony. Be quiet! A newt?</p>
+            </section>
+        </div>
+        <nav id="primary_nav">
             <ul>
-                <li><a href="#">One</a></li>
-                <li><a href="#">Two</a></li>
-                <li><a href="#">Three</a></li>
-                <li><a href="#">Four</a></li>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">About Me</a></li>
+                <li><a href="">Nonsense</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="#home">Top</a></li>
             </ul>
         </nav>
-    </header>
-    <div class="row">
-        <section>
-            <h2>Mobile and Desktop</h2>
-            <p>On this site, I need to make sure that the site looks good on mobile and desktop. If not, then some users will be left out in the cold and that's no good. We want all our visitors to feel welcomed.</p>
-        </section>
-        <section id="issue">
-            <h2>The Big Issue</h2>
-            <p>So, there are defaults for design, but what if I want to do something unconventional. How will I know if that's an okay thing to do?</p>
-        </section>
-        <section>
-            <h2>User Testing</h2>
-            <p>An easy way to find out if your site makes sense to visitors is to find people in your target demographic and have them do surveys, interviews, and other forms of user testing. This can help ensure your product reaches its goal in an unbiased
-                way.</p>
-        </section>
+        <footer>
+            <p>Copyright &copy;2016 Yi-Fan Chen <a href="https://yifanchentw.github.io">XDer in Training</a></p>
+        </footer>
     </div>
-    <footer>
-        <address>Copyright Your Name 2016</address>
-        <address>Your Email Address</address>
-        <address>Your Whatever Else</address>
-    </footer>
 </body>
 
 </html>
