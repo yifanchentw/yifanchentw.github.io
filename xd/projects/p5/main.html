@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>mP5.js library</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script type='text/javascript' src="js/p5.min.js"></script>
+    <script type='text/javascript' src="js/p5.dom.js"></script>
+    <script type='text/javascript' src="js/navbar.js"></script>
+    <script type='text/javascript' src="js/main.js"></script>
+
+
+</head>
+
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">welcome</a>
+        <a href="main.html">main</a>
+        <ul>
+            <li><a href="first.html">first js</a></li>
+            <li><a href="emotion.html">emotion js</a></li>
+            <li><a href="objects.html">objects js</a></li>
+            <li><a href="pong.html">pong js</a></li>
+        </ul>
+        <a href="forthcoming.html">forthcoming</a>
+    </div>
+    <div id="main">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+    </div>
+
+
+    <div class="slider">
+        <input type="radio" id="control1" name="controls" checked="checked" />
+        <label for="control1"></label>
+        <input type="radio" id="control2" name="controls" />
+        <label for="control2"></label>
+        <input type="radio" id="control3" name="controls" />
+        <label for="control3"></label>
+        <input type="radio" id="control4" name="controls" />
+        <label for="control4"></label>
+        <input type="radio" id="control5" name="controls" />
+        <label for="control5"></label>
+        <div class="sliderinner">
+            <ul>
+                <li>
+                    <img src="images/subway.jpg" width="100%" />
+                </li>
+                <li>
+                    <img src="images/lake.jpg" width="100%" />
+                </li>
+                <li>
+                    <img src="images/love.jpg" width="100%" />
+                </li>
+                <li>
+                    <img src="images/river.jpg" width="100%" />
+                </li>
+                <li>
+                    <img src="images/harbour.jpg" width="100%" />
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--image slider-->
+    <div class=" container">
+        <div>
+            <hr width="75%">
+        </div>
+        <div>
+            <center>
+                <a href="first.html"><img src="images/revised.jpg" width="25%"></a>
+                <a href="emotion.html"><img src="images/emotion.jpg" width="25%"></a>
+                <a href="objects.html"><img src="images/objects.jpg" width="25%"></a>
+                <a href="pong.html"><img src="images/pong.jpg" width="13%"></a>
+            </center>
+        </div>
+    </div>
+</body>
+
+</html>
