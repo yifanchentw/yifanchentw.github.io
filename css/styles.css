@@ -107,15 +107,32 @@ body {
     font: 16px/1.4em 'PT Sans', sans-serif;
     ;
     color: #1c1c1c;
-
-}
-
-body {
     background-image: url("../images/bg.jpg");
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: fixed;
+
 }
+
+
+
+a:link {
+    color: black;
+}
+a:visited {
+    color: lightblue;
+}
+
+
+a:hover {
+    color: lightgreen;
+}
+
+
+a:active {
+    color: lightblue;
+}
+
 
 p,
 ul {
