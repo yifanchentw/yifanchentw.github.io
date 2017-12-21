@@ -1,3 +1,50 @@
+.wrapper {
+    position: relative;
+    width: 768px;
+    margin: auto;
+  }
+  
+  body, html {
+      height: 100%;
+      margin: 0;
+      font: 400 15px/1.8 "Lato", sans-serif;
+      color: #777;
+    }
+    
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-pokemon  {
+      position: relative;
+      opacity: 0.65;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    
+    }
+    .bgimg-1 {
+      background-image: url("../images/sky.jpg");
+      min-height: 400px;
+    }
+    
+    .bgimg-2 {
+      background-image: url("../images/spring.jpg");
+      min-height: 400px;
+    }
+    
+    .bgimg-3 {
+      background-image: url("../images/fall.jpg");
+      min-height: 400px;
+    }
+    
+    .bgimg-4 {
+      background-image: url("../images/winter.jpg");
+      min-height: 400px;
+    }
+    
+    .bgimg-pokemon {
+      background-image: url("../images/birthday.jpg");
+      min-height: 600px;
+    }
+
 body {margin:0;}
 
 .topnav {
