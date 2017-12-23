@@ -28,50 +28,67 @@ html, body, section {
   .container {
   }
   
+  quote{
+    margin-left: 200px;
+    margin-right:200px;
+  
+  }
   .content{
-    background-color: gray;
+    background-color: #7fcfff;
+    flex: 1;
+    padding: 16px;
+  }
+
+  .content1{
+    background-color: #99d8ff;
+    flex: 1;
+    padding: 16px;
+  }
+
+  .content2{
+    background-color: #b2e2ff;
     flex: 1;
     padding: 16px;
   }
 
   .background {
-    background-color: #7ab0cf;
+    background-color: #006fb3;
     flex: 1;
     padding: 16px;
   }
   
   .literatures {
-    background-color: #8eb9d4;
+    background-color: #007fcc;
     flex: 1;
     padding: 16px;
   }
 
   .methods {
-    background-color: #a8c7db;
+    background-color: #008fe6;
     flex: 1;
     padding: 16px;
   }
   
   .findings {
-    background-color: #bfd0db;
+    background-color: #009fff;
     flex: 1;
     padding: 16px;
   }
 
   .discussions {
-    background-color: #dae1e8;
+    background-color: #1aa9ff;
     flex: 1;
     padding: 16px;
   }
   
   .conclusions {
-    background-color: #eaf2f1;
+    background-color: #33b2ff;
     flex: 1;
     padding: 16px;
   }
 
   .design {
-    background-color: skyblue;
+    background-color: #4dbcff;
     flex: 1;
     padding: 16px;
   }
@@ -86,7 +103,7 @@ html, body, section {
   height: 100%;
 }
 body {
-    font-size: 20px;
+    font-size: 15px;
   }
   
   div {
