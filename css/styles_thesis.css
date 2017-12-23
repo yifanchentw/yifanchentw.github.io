@@ -1,0 +1,109 @@
+/* Pen-specific styles */
+html, body, section {
+  padding: 0px;
+  margin: 0px;
+  }
+
+  body {
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 10px;
+    line-height: 150%;
+    text-shadow: 0 2px 2px #b6701e;
+  }
+  
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  h1 {
+    font-size: 14px;
+    text-align: center;
+    margin: 0 0 6px 0;
+  }
+  
+  /* Pattern styles */
+  .container {
+  }
+  
+  .content{
+    background-color: gray;
+    flex: 1;
+    padding: 16px;
+  }
+
+  .background {
+    background-color: #7ab0cf;
+    flex: 1;
+    padding: 16px;
+  }
+  
+  .literatures {
+    background-color: #8eb9d4;
+    flex: 1;
+    padding: 16px;
+  }
+
+  .methods {
+    background-color: #a8c7db;
+    flex: 1;
+    padding: 16px;
+  }
+  
+  .findings {
+    background-color: #bfd0db;
+    flex: 1;
+    padding: 16px;
+  }
+
+  .discussions {
+    background-color: #dae1e8;
+    flex: 1;
+    padding: 16px;
+  }
+  
+  .conclusions {
+    background-color: #eaf2f1;
+    flex: 1;
+    padding: 16px;
+  }
+
+  .design {
+    background-color: skyblue;
+    flex: 1;
+    padding: 16px;
+  }
+  
+
+
+  /* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 768px) {
+/* STYLES GO HERE */
+html, body, section {
+  height: 100%;
+}
+body {
+    font-size: 20px;
+  }
+  
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin: 0 0 12px 0;
+  }
+  
+  /* Pattern styles */
+  .container {
+    display: flex;
+  }
+  
+ 
+}
