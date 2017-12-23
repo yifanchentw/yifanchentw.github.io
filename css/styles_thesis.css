@@ -34,58 +34,53 @@ html, body, section {
   
   }
   .content{
-    background-color: #7fcfff;
+    background-color: #ffaf7f;
     flex: 1;
     padding: 16px;
   }
 
   .content1{
-    background-color: #99d8ff;
+    background-color: #ffb78b;
     flex: 1;
     padding: 16px;
   }
 
   .content2{
-    background-color: #b2e2ff;
+    background-color: #ffbf98;
     flex: 1;
     padding: 16px;
   }
 
   .background {
-    background-color: #006fb3;
+    background-color: #007fcc;
     flex: 1;
     padding: 16px;
   }
   
   .literatures {
-    background-color: #007fcc;
+    background-color: #008fe6;
     flex: 1;
     padding: 16px;
   }
 
   .methods {
-    background-color: #008fe6;
+    background-color: #009fff;
     flex: 1;
     padding: 16px;
   }
   
   .findings {
-    background-color: #009fff;
+    background-color: #1aa9ff;
     flex: 1;
     padding: 16px;
   }
 
   .discussions {
-    background-color: #1aa9ff;
-    flex: 1;
-    padding: 16px;
-  }
-  
-  .conclusions {
     background-color: #33b2ff;
     flex: 1;
     padding: 16px;
   }
+  
 
   .design {
     background-color: #4dbcff;
