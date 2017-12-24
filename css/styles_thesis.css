@@ -1,155 +1,131 @@
 /* Pen-specific styles */
-html, body, section {
-  padding: 0px;
-  margin: 0px;
-  }
+	html, body, section {
+	  padding: 0px;
+	  margin: 0px;
+	  }
+	
 
-  body {
-    color: #fff;
-    font-family: 'PT Sans', sans-serif;
-    font-size: 10px;
-    line-height: 150%;
-    text-shadow: 0 2px 2px #b6701e;
-  }
-  
-  div {
-  
-  }
-  
-  h1 {
-    font-size: 14px;
-    text-align: center;
-    margin: 0 0 6px 0;
-  }
-  
-  /* Pattern styles */
-  .container {
+	  body {
+	    color: #fff;
+	    font-family: 'PT Sans', sans-serif;
+	    font-size: 10px;
+	    line-height: 150%;
+	    text-shadow: 0 2px 2px #b6701e;
+	  }
+	  
+	  div {
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	  }
+	  
+	  h1 {
+	    font-size: 14px;
+	    text-align: center;
+	    margin: 0 0 6px 0;
+	  }
+	  
+	  /* Pattern styles */
+	  .container {
+	  }
+	  
+	  quote{
+	    margin-left: 200px;
+	    margin-right:200px;
+	  
+	  }
+	  .content{
+	    background-color: #ffaf7f;
+	    flex: 1;
+	    padding: 16px;
+	  }
+	
 
-  }
-  
-  quote{
-    margin-left: 200px;
-    margin-right:200px;
-  
-  }
-  .content{
-    background-color: #ffaf7f;
-    padding: 10px;
-  }
+	  .content1{
+	    background-color: #ffb78b;
+	    flex: 1;
+	    padding: 16px;
+	  }
+	
 
-  .content1{
-    background-color: #ffb78b;
-    padding: 10px;
-  }
+	  .content2{
+	    background-color: #8bd3ff;
+	    flex: 1;
+	    padding: 16px;
+	  }
+	
 
-  .content2{
-    background-color: #8bd3ff;
-    padding: 10px;
-  }
+	  .background {
+	    background-color: #007fcc;
+	    flex: 1;
+	    padding: 16px;
+	  }
+	  
+	  .literatures {
+	    background-color: #008fe6;
+	    flex: 1;
+	    padding: 16px;
+	  }
+	
 
-  .background {
-    background-color: #007fcc;
-    padding: 10px;
-  }
+	  .methods {
+	    background-color: #009fff;
+	    flex: 1;
+	    padding: 16px;
+	  }
+	  
+	  .findings {
+	    background-color: #1aa9ff;
+	    flex: 1;
+	    padding: 16px;
+	  }
+	
 
-  .literatures {
-    background-color: #008fe6;
-    padding: 10px;
-  }
+	  .discussions {
+	    background-color: #33b2ff;
+	    flex: 1;
+	    padding: 16px;
+	  }
+	  
+	
 
-  .methods {
-    background-color: #009fff;
-    padding: 10px;
-  }
+	  .design {
+	    background-color: #4dbcff;
+	    flex: 1;
+	    padding: 16px;
+	  }
+	  
+	
 
-  .findings {
-    background-color: #1aa9ff;
-   padding: 10px;
-  }
+	
 
-  .discussions {
-    background-color: #33b2ff;
-    padding: 10px;
-  }
-  
+	  /* Desktops and laptops ----------- */
+	@media only screen
+	and (min-width : 768px) {
+	/* STYLES GO HERE */
+	html, body, section {
+	  height: 100%;
+	}
+	body {
+	    font-size: 15px;
+	  }
+	  
+	  div {
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	  }
+	  
+	  h1 {
+	    font-size: 28px;
+	    margin: 0 0 12px 0;
+	  }
+	  
+	  /* Pattern styles */
+	  .container {
+	    display: flex;
+	  }
+	  
+	 
+	}
 
-  .design {
-    background-color: #4dbcff;
-    padding: 10px;
-  }
-
-
-  /* Desktops and laptops ----------- */
-@media only screen
-and (min-width : 768px) {
-/* STYLES GO HERE */
-html, body, section {
-  height: 100%;
-}
-body {
-    font-size: 15px;
-  }
-  
-  div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  h1 {
-    font-size: 28px;
-    margin: 0 0 12px 0;
-  }
-  
-  /* Pattern styles */
-  .container {
-    display: flex;
-  }
-  
- 
-  .content{
-    flex: 1;
-    padding: 16px;
-  }
-
-  .content1{
-    flex: 1;
-    padding: 16px;
-  }
-
-  .content2{
-    flex: 1;
-    padding: 16px;
-  }
-
-  .background {
-    flex: 1;
-    padding: 16px;
-  }
-  
-  .literatures {
-    flex: 1;
-    padding: 16px;
-  }
-
-  .methods {
-    flex: 1;
-    padding: 16px;
-  }
-  
-  .findings {
-    flex: 1;
-    padding: 16px;
-  }
-
-  .discussions {
-    flex: 1;
-    padding: 16px;
-  }
-  
-  .design {
-    flex: 1;
-    padding: 16px;
-  }
-  
-}
