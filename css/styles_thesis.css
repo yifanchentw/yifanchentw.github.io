@@ -105,6 +105,7 @@
 	
 	  .kaohsiung {
 			width: 100%;
+			height: auto;
 			background-color: #4dbcff;
 			background-image: url("./../xd/projects/Kaohsiung/images/subway.jpg");
 			background-size: cover;
