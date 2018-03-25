@@ -112,6 +112,13 @@ html, body, section {
 	  margin: 0 0 12px 0;
 	}
 	
+
+	footer{
+		text-align:right;
+		color: black;
+		padding: 10px;
+	}
+
 	/* Pattern styles */
 	.container {
 	  display: flex;
