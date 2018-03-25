@@ -1,0 +1,208 @@
+*{
+
+}
+
+body{
+    background-image: url("../../images/sky.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    margin: 0px;
+    font-family: 'Share Tech', sans-serif;
+    font-size: 64px; 
+    color: white; 
+    text-align: center;
+    text-transform: lowercase;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.flexbox {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+  }
+
+  .flexbox .col {
+    flex: 1;
+    height: 450px;  
+  }
+
+  .flexbox .col2 {
+    flex: 1;
+    height: 450px;  
+  }
+
+  .flexbox .col3 {
+    flex: 1;
+  }
+
+  .flexbox .col4 {
+    flex: 1; 
+  }
+
+
+    .flexbox .col:nth-child(1) {
+        background: rgba(238,64,53, 0.5);
+        order: 0;
+    }
+    .flexbox .col:nth-child(2) {
+        background: rgba(243,119,54, 0.5);
+        order: 1;
+    }
+    .flexbox .col:nth-child(3) {
+        background: rgba(253,244,152, 0.5);
+        order: 2;
+    }
+    .flexbox .col:nth-child(4) {
+        background: rgba(123,192,67, 0.5);
+        order: 3;
+    }
+    .flexbox .col:nth-child(5) {
+        background: rgba(3,146,207, 0.5);
+        order: 4;
+    }
+    .flexbox .col:nth-child(6) {
+        background: rgba(119, 0, 255, 0.5);
+        order: 5;
+    }
+
+    .flexbox .col2:nth-child(1) {
+        background-color:rgba(153, 152, 155, 0.7);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px; 
+        padding: 10px;
+        text-align: right;
+        line-height: 1.6;
+        order: 0;
+    }
+    .flexbox .col2:nth-child(2) {
+        background-color:rgba(153, 152, 155, 0.7);
+        height: 450px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px; 
+        padding: 10px;
+        text-align: left;
+        line-height: 1.6;
+        order: 1;
+    }
+
+    .flexbox .col3:nth-child(1) {
+        background-color:rgba(153, 152, 155, 0.7);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px; 
+        padding: 10px;
+        text-align: right;
+        line-height: 1.6;
+        order: 0;
+    }
+    .flexbox .col3:nth-child(2) {
+        background-color:rgba(153, 152, 155, 0.7);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px; 
+        padding: 10px;
+        text-align: left;
+        line-height: 1.6;
+        order: 1;
+    }
+
+    .flexbox .col4:nth-child(1) {
+        padding: 10px;
+        margin: 10px;
+        order: 0;
+    }
+    .flexbox .col4:nth-child(2) {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12px; 
+        padding: 10px;
+        margin: 10px;
+        text-align: left;
+        line-height: 1.3;
+        order: 1;
+    }
+    .flexbox .col4:nth-child(3) {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px; 
+        padding: 10px;
+        margin: 10px;
+        text-align: left;
+        line-height: 1.6;
+        order: 2;
+    }
+
+
+
+.title {
+    font-size: 100px;   
+    line-height: 200px;
+}
+
+.what {
+    background: rgba(238,64,53, 0.5);
+    line-height: 200px;
+}
+
+.why {
+    background: rgba(243,119,54, 0.5);
+    line-height: 200px;
+}
+
+.who {
+    background: rgba(253,244,152, 0.5);
+    line-height: 200px;
+}
+
+.where {
+    background: rgba(123,192,67, 0.5);
+    line-height: 200px;
+}
+
+.when {
+    background: rgba(3,146,207, 0.5);
+    line-height: 200px;
+}
+
+.how {
+    background: rgba(119, 0, 255, 0.5);
+    line-height: 200px;
+}
+
+
+.caption{
+    font-size: 12px;
+    text-align: center;
+}
+
+
+.crop { 
+    display:inline-block;
+    position: relative;
+    width: 105px;
+    height: 105px;
+    overflow: hidden;
+}
+
+.crop img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    width: auto;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+.crop img.portrait {
+    width: 100%;
+    height: auto;
+  }
+  div{
+      margin: 0px;
+  }
